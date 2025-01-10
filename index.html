@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Projeto Portfólio">
-		<meta name="author" content="Bianca Jesus">
-		<meta name="keywords" content="HTML, CSS, JavaScript">
-		<title>Meu Perfil</title>
-	</head>
-	<body>
-		<header>
-			<div id="header_content">
-				<div id="titulo">
-					<h1>Bianca Jesus</h1>
-				</div>
-				<div id="menu">
-					<nav>
-						<ul id="menu">
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="contato.html">Contato</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Bianca Jesus">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
 
-		<main>
-			<section id="about">
-				<h2>Sobre Bianca Jesus</h2>
-				<div id="conteudo">
-					<img src="./assets/img/user_02.svg" alt="Foto do criador do conteúdo" />
-					<article id="sobre_texto">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque
-							itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque. 
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque 
-							hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
-						</p>
-					</article>
-				</div>
-			</section>
+	<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
 
-			<section id="video">
-				<h2>Meu vídeo favorito:</h2>
-				<div class="youtube">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0" 
-					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-					allowfullscreen></iframe>
-				</div>
-			</section>
-		</main>
+	<link rel="stylesheet" href="./assets/img/css/style.css" />
 
-		<footer>
-			<section id="redes_sociais">
-				<a href="">
-					<img src="assets/img/linkedin.svg" alt="LinkedIn" />
-				</a>
-				<a href="">
-					<img src="assets/img/github.svg" alt="Github" />
-				</a>
-				<a href="">
-					<img src="assets/img/instagram.svg" alt="Instagram" />
-				</a>
-			</section>
-			<h3>Feito com 🧡 por Bianca Jesus - 2025</h3>
-		</footer>
-	</body>
+    <title>Meu Perfil</title>
+  </head>
+  <body>
+    <header>
+      <div id="header_content" class="flex">
+        <div id="titulo">
+          <h1>Bianca Jesus</h1>
+        </div>
+        <div id="menu">
+          <nav>
+            <ul id="menu">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="flex_start">
+        <h2>Sobre Bianca Jesus</h2>
+        <div id="conteudo" class="flex">
+          <img src="https://ik.imagekit.io/yjt8pt6d8/bia.png?updatedAt=1736212249728" alt="Foto do criador do conteúdo" 
+
+		  class="img_profile"
+
+		  />
+
+          <article id="sobre_texto">
+            <p>
+              Sou a Bianca, tenho 24 anos e nasci em São Paulo. Viajar é algo que eu realmente amo, 
+              sempre que posso, estou explorando novos lugares. Também curto muito praticar esportes, 
+              me sinto bem e cheia de energia. Quando quero relaxar, não tem nada melhor do que 
+              assistir a uma comédia romântica ou maratonar uma série. Acredito que a vida é para ser 
+              vivida com leveza e diversão, então tento aproveitar ao máximo cada momento.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="video" class="flex_start">
+        <h2>Meu vídeo favorito:</h2>
+        <div id="youtube" class="flex">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vi2Xn9d_Or8?si=gH0cRoRGir6_rs-5" 
+                  title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+			</iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="flex">
+      <section id="redes_sociais">
+        <a href="">
+          <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+        </a>
+        <a href="">
+          <img src="assets/img/github.svg" alt="Github" />
+        </a>
+        <a href="">
+          <img src="assets/img/instagram.svg" alt="Instagram" />
+        </a>
+      </section>
+      <h3>Feito com 🧡 por Bianca Jesus - 2025</h3>
+    </footer>
+  </body>
 </html>
